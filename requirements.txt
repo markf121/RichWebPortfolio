@@ -1,0 +1,21 @@
+Rich web Assignment 1 Requirements
+
+Marking Scheme: (%15)
+	- 1 Correct use of HTML
+	- 2 correct use of JavaScript
+	- 2 correct use of HTML 5 semantic elements
+	- 3 correct use of CSS or Bootstrap – validation if using CSS3
+	- 1 html validated (put the link at the bottom of each HTML page)
+	- 1 comments within the code (HTML + CSS + JavaScript)
+	- 1 the code is conformed to the DRY philosophy
+	- 2 the web-application is rendered also on other devices (mobiles, pads)
+	- 2 points for a very structured and articulated project
+
+Content requirements:
+	- Personal statement
+	- Education
+	- Experiences
+	- List of skills
+	- Personal interests
+	- Honours and Awards
+	
