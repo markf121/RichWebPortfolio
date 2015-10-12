@@ -142,6 +142,9 @@ footer {
   float: left;
 }
 
+/* display and show classes are used for showing and hiding certain content. 
+  This helps navigation while maintaing the site's Single Page implementation */
+
 .hidden {
   display: none;
 }
