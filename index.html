@@ -18,15 +18,15 @@
         </a>
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a onclick="showAbout()">About</a></li>
-          <li><a onclick="showEdu()" >Education</a></li>
-          <li><a onclick="showExperience()">Experience</a></li>
+          <li><a href="index.html" class="selected" onclick="showThis(index)">Portfolio</a></li>
+          <li><a onclick="showThis(about)">About</a></li>
+          <li><a onclick="showThis(education)" >Education</a></li>
+          <li><a onclick="showThis(experience)">Experience</a></li>
         </ul>
       </nav>
     </header>
     <div id="wrapper">
-    <div id="index">
+    <div id="index" >
     <section>
     <h3>Work</h3>
       <ul id = "gallery">
@@ -56,7 +56,7 @@
     </section>
     </div>
 
-    <div id="about">
+    <div id="about" class="hidden">
     <section >
       <img src="img/profile-2.jpg" alt="Self portrait" class="profile-photo">
       <h3>About</h3>
@@ -66,25 +66,7 @@
     </section>
     </div>
 
-    <div id="contact">
-      <section id="primary">
-        <h3>Contact details</h3>
-        <p>
-          If you have any queries or would like to get in contact please don't hesitate to do so!
-        </p>
-        <p>The best way to contact me is by email. Phone should be reserved for urgent purposes only.</p>
-      </section>
-      <section id="secondary">
-        <ul>
-          <li class="phone"><a href="tel:555-6868">555-6868</a></li>
-          <li class="mail"><a href="mailto:markf121@hotmail.com">markf121@hotmail.com</a></li>
-          <li class="twitter"><a href="http://www.twitter.com/flarkmanagan">@flarkmanagan</a></li>
-
-        </ul>
-      </section>
-    </div>
-
-    <div id="education">
+    <div id="education" class="hidden">
       <section>
         <h3>Education</h3>
         <p><strong>Dublin Institute of Techology</strong></p>
@@ -100,7 +82,7 @@
       </section>
     </div>
 
-    <div id="experience">
+    <div id="experience" class="hidden">
       <section>
         <h3>Experience</h3>
         <p><strong>Datacentre Intern</strong></p>
@@ -115,6 +97,25 @@
         <p><em>Delivery Services</em></p>
         <p>December 2013 - December 2014</p>
         <p>I work as a team to disconnect, move and reconnect office workstations on a large scale. Orchestrate and execute large scale moves of office IT equipment. Effectively communicate unresolvable issues to on-site IT teams. Employed knowledge and understanding of computer software and hardware to fix any errors or problems that arose when reconnecting computers.</p>
+      </section>
+    </div>
+
+
+    <div id="contact" class="hidden">
+      <section id="primary">
+        <h3>Contact details</h3>
+        <p>
+          If you have any queries or would like to get in contact please don't hesitate to do so!
+        </p>
+        <p>The best way to contact me is by email. Phone should be reserved for urgent purposes only.</p>
+      </section>
+      <section id="secondary">
+        <ul>
+          <li class="phone"><a href="tel:555-6868">555-6868</a></li>
+          <li class="mail"><a href="mailto:markf121@hotmail.com">markf121@hotmail.com</a></li>
+          <li class="twitter"><a href="http://www.twitter.com/flarkmanagan">@flarkmanagan</a></li>
+
+        </ul>
       </section>
     </div>
 
