@@ -8,11 +8,12 @@ function hideAll() {
 	document.getElementById('contact').className = 'hidden';
 }
 
-function showThis(id) {
+function showThis(myId) {
+	var thisId = myId;
 	//First hide all 'page' divs by setting their class to hidden.
 	hideAll();
 	//Then show the selected div by removing the hidden class.
-	document.getElementById(id).className = 'show';
+	document.getElementById(thisId).className = 'show';
 }
 /*
 function showIndex () {
