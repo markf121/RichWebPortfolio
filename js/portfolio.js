@@ -1,12 +1,18 @@
+function hideAll() {
+
+	//Hides all 'pages' by changing each div's class to hidden
+	document.getElementById('index').className = 'hidden';
+	document.getElementById('about').className = 'hidden';
+	document.getElementById('education').className = 'hidden';
+	document.getElementById('experience').className = 'hidden';
+	document.getElementById('contact').className = 'hidden';
+}
+
 function showThis(id) {
-	//Hide all
-	document.getElementById('index').style.display = 'none';
-	document.getElementById('about').style.display = 'none';
-	document.getElementById('education').style.display = 'none';
-	document.getElementById('experience').style.display = 'none';
-	document.getElementById('contact').style.display = 'none';
-	//Show selected
-	document.getElementById(id).style.display = 'block';
+	//First hide all 'page' divs by setting their class to hidden.
+	hideAll();
+	//Then show the selected div by removing the hidden class.
+	document.getElementById(id).className = 'show';
 }
 /*
 function showIndex () {
