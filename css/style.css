@@ -142,6 +142,9 @@ footer {
   float: left;
 }
 
+.hidden {
+  display: none;
+}
 
 /***************************
 
