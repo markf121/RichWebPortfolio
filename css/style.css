@@ -151,8 +151,12 @@ footer {
 
 .show {
   display: block;
+
 }
 
+nav a.show, nav a:hover {
+  color: #32673f;
+}
 
 /***************************
 
@@ -207,10 +211,5 @@ nav {
 nav a, nav a:visited 
 {
   color: #fff ;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f
 }
 
