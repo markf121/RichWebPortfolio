@@ -132,6 +132,7 @@ footer {
 }
 
 .gallery li > p {
+  width: 45%;
   margin: 0;
   padding: 5%;
   font-size:0.75em;
