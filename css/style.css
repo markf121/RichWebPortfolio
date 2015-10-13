@@ -159,6 +159,12 @@ nav a.show, nav a:hover {
   color: #32673f;
 }
 
+#skills {
+  list-style: none;
+  display: inline-block;
+
+}
+
 /***************************
 
     PAGE ABOUT
