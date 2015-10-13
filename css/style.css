@@ -116,13 +116,13 @@ footer {
     PAGE PORTFOLIO
 ***************************/
 
-#gallery {
+.gallery {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#gallery li {
+.gallery li {
   float: left;
   width: 45%;
   margin: 2.5%;
@@ -131,7 +131,7 @@ footer {
   
 }  
 
-#gallery li p {
+.gallery li p {
   margin: 0;
   padding: 5%;
   font-size:0.75em;
@@ -151,6 +151,10 @@ footer {
 
 .show {
   display: block;
+}
+
+#interests {
+  float: left;
 }
 
 /***************************
