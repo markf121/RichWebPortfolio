@@ -120,7 +120,6 @@ footer {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: table-row;
 }
 
 .gallery li {
@@ -131,9 +130,6 @@ footer {
   color: #bdc3c7;
   
 } 
-.gallery > img {
-  display: table-cell;
-}
 
 .gallery li > p {
   margin: 0;
