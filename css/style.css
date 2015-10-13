@@ -162,6 +162,8 @@ nav a.show, nav a:hover {
 #skills > ul > li {
   list-style: none;
   display: inline-block;
+  background-color: #f5f5f5;
+  margin-left: 5%;
 
 }
 
