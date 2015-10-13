@@ -159,7 +159,7 @@ nav a.show, nav a:hover {
   color: #32673f;
 }
 
-#skills {
+#skills > ul > li {
   list-style: none;
   display: inline-block;
 
