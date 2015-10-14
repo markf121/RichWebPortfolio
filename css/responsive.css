@@ -20,7 +20,7 @@
     PAGE: PORTFOLIO;
 	***************************/
 	.gallery  li {
-		width: 28.3333%;
+		width: 45%;
 	}
 
 	.gallery li:nth-child(4n) {
@@ -80,6 +80,14 @@
 	header {
 		 border-bottom: 5px solid #599a68;
 		 margin-bottom: 60px;
+	}
+
+	.gallery  li {
+		width: 28.3333%;
+	}
+
+	.gallery li:nth-child(4n) {
+		clear: left;
 	}
 }
 
