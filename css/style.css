@@ -92,6 +92,13 @@ nav a{
   font-weight: 800;
   padding: 15px 10px;
 }
+.selected {
+  color: #32673f;
+}
+
+.notSelected {
+  color: #FFFFFF;
+}
 /***************************
 
     FOOTER

@@ -18,10 +18,11 @@
         </a>
       <nav>
         <ul>
-          <li><a href="index.html" onclick="showThis('index')">Portfolio</a></li>
-          <li><a onclick="showThis('about')">About</a></li>
-          <li><a onclick="showThis('education')" >Education</a></li>
-          <li><a onclick="showThis('experience')">Experience</a></li>
+          <li><a onclick="showThis('index'); selectedLink(this.id)" id="index-link">Portfolio</a></li>
+          <li><a onclick="showThis('about'); selectedLink(this.id)" id="about-link">About</a></li>
+          <li><a onclick="showThis('education'); selectedLink(this.id)" id="edu-link" >Education</a></li>
+          <li><a onclick="showThis('experience'); selectedLink(this.id)" id="exp-link">Experience</a></li>
+          <li><a onclick="showThis('contact'); selectedLink(this.id)" id="contact-link">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -43,14 +44,14 @@
           <p>A command line program written in C# to demomstrate traversal of a weighted graph</p>
           </a>
         </li>
-        <!-- 
+        
         <li>
           <a href="https://github.com/markf121/RichWebPortfolio">
             <img src="img/mywebsite.png" alt="screenshot of this website">
             <p>This website is hosted on github!</p>
           </a>
         </li>
-        -->
+        
       </ul>
     </section>
 
@@ -75,6 +76,7 @@
     <section id="interests">
       <h3>Interests</h3>
       <p>My free time is as important to me as my work and education. As I do with my academic/work time I use my free time wisely! My biggest passion is rock climbing and the outdoors so if I'm not at a computer screen developing or playing video games I am most likely hanging out of a cliff somewhere.
+      I'm also a scout leader (part-time babysitter) in my spare time. It provides as much challenges as it does amazing life experience!</p>
       <p>Here are a few things I get up to...</p>
 
       <ul class="gallery">
@@ -92,6 +94,22 @@
             <img src="img/dalkey-alexandria.jpg" alt="picture of me climbing in Dalkey Quarry, Dublin">
             <p>Climbing in Dalkey Quarry in Dublin</p>
         </li>
+
+        <li>
+          <img src="img/mark-paddling.jpg" alt="kayaking in kerry">
+          <p>Me on the water with my scouts in Cappanalea OEC, Kerry.</p>
+        </li>
+
+        <li>
+          <img src="img/grindelwald.jpg" alt="lost in grindelwald">
+          <p>Lost in Grindelwald on the hunt for an elusive hostel.</p>
+        </li>
+
+        <li>
+          <img src="img/eiger.jpg" alt="posing at the base of the eiger">
+          <p>Me and Roisin posing at the base of the Eiger</p>
+        </li>
+
       </ul>
 
 
@@ -105,13 +123,18 @@
         <p><strong>Dublin Institute of Techology</strong></p>
         <p><em>Bachelor of Science (B.Sc.), Computer Science</em></p>
         <p>2012 - 2016</p>
-        <hr>
-      </section>
-
-      <section>
+      
         <p><strong>Newpark Comprehensive School</strong></p>
         <p><em>Leaving Certificate</em></p>
         <p>2006 - 2012</p>
+      </section>
+
+      <section id="awards">
+        <h3>Awards and Honours</h3>
+        <ul>
+          <li></li>
+        </ul>
+        
       </section>
     </div>
 

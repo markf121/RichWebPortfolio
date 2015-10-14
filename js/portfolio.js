@@ -15,3 +15,16 @@ function showThis(myId) {
 	//Then show the selected div by removing the hidden class.
 	document.getElementById(thisId).className = 'show';
 }
+
+function selectedLink(linkId) {
+	deselectLink();
+	document.getElementById(linkId).className = 'selected';
+}
+
+function deselectLink() {
+	document.getElementById('index-link').className = 'notSelected';
+	document.getElementById('about-link').className = 'notSelected';
+	document.getElementById('edu-link').className = 'notSelected';
+	document.getElementById('exp-link').className = 'notSelected';
+	document.getElementById('contact-link').className = 'notSelected';
+}
