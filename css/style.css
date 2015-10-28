@@ -202,7 +202,13 @@ nav a.show, nav a:hover {
   list-style: none;
 }
 
+/***************************
+    CONTACT
+***************************/
 
+#contact li {
+  list-style: none;
+}
 
 /***************************
     COLORS
@@ -241,6 +247,8 @@ nav a, nav a:visited
 {
   color: #fff ;
 }
+
+
 
 
 
