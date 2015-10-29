@@ -1,3 +1,6 @@
+// Add event listeners
+
+
 function hideAll() {
 
 	//Hides all 'pages' by changing each div's class to hidden
@@ -27,4 +30,18 @@ function deselectLink() {
 	document.getElementById('edu-link').className = 'notSelected';
 	document.getElementById('exp-link').className = 'notSelected';
 	document.getElementById('contact-link').className = 'notSelected';
+}
+
+
+function increaseText(upId) {
+	document.getElementById(upId).style.display = 'none';
+	document.getElementById('text-down').style.display = 'block';
+	document.body.style.fontSize = 'larger';
+	document.body.style.fontSize = 'larger';
+}
+
+function decreaseText(downId) {
+	document.getElementById(downId).style.display = 'none';
+	document.getElementById('text-up').style.display = 'block';
+	document.body.style.fontSize = 'initial';
 }

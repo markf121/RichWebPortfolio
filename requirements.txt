@@ -20,5 +20,6 @@ Content requirements:
 	- Honours and Awards
 
 To Do:
-	
-		- 
+	- Add some more JS functionality
+	- Clean up CSS
+	- Review code and ensure DRY principles have been followed

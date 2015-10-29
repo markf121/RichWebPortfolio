@@ -103,6 +103,27 @@ nav a{
 .notSelected {
   color: #FFFFFF;
 }
+
+.textModifier {
+  width: 2%;
+  background-color: #F5F5F5;
+  float: right;
+  border-radius: 10px 0px 0px 10px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.textModifier > p {
+  font-family: 'Changa One', sans-serif;
+  padding-left: 4px;
+  color: #599A68;
+}
+
+#text-down {
+  display: none;
+}
+
+
 /***************************
 
     FOOTER
