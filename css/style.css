@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  max-width: 100%;
+  overflow: auto;
 }
 
 a
@@ -44,6 +46,7 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
+  max-width: 100%;
 }
 
 #logo 
@@ -96,6 +99,7 @@ nav a{
   font-weight: 800;
   padding: 15px 10px;
 }
+
 .selected {
   color: #32673f;
 }
@@ -110,12 +114,15 @@ nav a{
 ***************************/
 
 .textModifier {
-  width: 2%;
+  
+  width: 8%;
+  padding-right: 1%;
   background-color: #F5F5F5;
   float: right;
   border-radius: 10px 0px 0px 10px;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+  overflow: auto;
 }
 
 .textModifier > p {
@@ -321,6 +328,10 @@ nav a, nav a:visited
     image 
     */
   }
+
+  .textModifier {
+    width: 5%;
+  }
 }
 
 
@@ -368,5 +379,10 @@ nav a, nav a:visited
 
   .gallery li:nth-child(4n) {
     clear: left;
+  }
+
+
+  .textModifier {
+    width: 2%;
   }
 }
