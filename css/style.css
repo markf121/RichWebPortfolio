@@ -114,7 +114,9 @@ nav a{
 ***************************/
 
 .textModifier {
-  
+  position: absolute;
+  top: 8%;
+  right: 0%;
   width: 8%;
   padding-right: 1%;
   background-color: #F5F5F5;
