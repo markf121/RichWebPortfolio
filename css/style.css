@@ -128,7 +128,6 @@ nav a{
   float: right;
   border-radius: 10px 0px 0px 10px;
   opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
   overflow: auto;
 }
 
